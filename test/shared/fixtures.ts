@@ -4,8 +4,8 @@ import { deployContract } from 'ethereum-waffle'
 
 import { expandTo18Decimals } from './utilities'
 
-import IgniswapFactory from '@igniswap/v2-core/build/IgniswapFactory.json'
-import IIgniswapPair from '@igniswap/v2-core/build/IIgniswapPair.json'
+import IgniswapFactory from '@uniswap/v2-core/build/IgniswapFactory.json'
+import IIgniswapPair from '@uniswap/v2-core/build/IIgniswapPair.json'
 
 import ERC20 from '../../build/ERC20.json'
 import WETH9 from '../../build/WETH9.json'

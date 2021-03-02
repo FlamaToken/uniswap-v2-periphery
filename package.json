@@ -1,22 +1,22 @@
 {
   "name": "@igniswap/v2-periphery",
   "version": "1.1.0-beta.0",
-  "description": "🎚 Peripheral smart contracts for interacting with Igniswap V2",
+  "description": "🎚 Peripheral smart contracts for interacting with Igniswap",
   "engines": {
     "node": ">=10"
   },
-  "homepage": "https://igniswap.org",
+  "homepage": "https://igniswap.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Igniswap/igniswap-v2-periphery"
+    "url": "https://github.com/flamatoken/igniswap-v2-periphery"
   },
   "files": [
     "build",
     "contracts"
   ],
   "dependencies": {
-    "@igniswap/lib": "4.0.1-alpha",
-    "@igniswap/v2-core": "1.0.0"
+    "@uniswap/lib": "4.0.1-alpha",
+    "@uniswap/v2-core": "1.0.0"
   },
   "devDependencies": {
     "@types/chai": "^4.2.6",
